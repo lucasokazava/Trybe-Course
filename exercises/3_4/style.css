@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: orange;
+  font-family: 'EB Garamond', serif;
+}
+
+header {
+  background-color: rgb(179, 121, 15);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+aside {
+  width: 100%;
+  font-style: italic;
+  background-color: lightgray;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(179, 121, 15);
+}
+
+article {
+  background-color: rgb(238,238,238);
+  text-align: center;
+  width: 100%;
+}
+
+article section {
+  border: 1px;
+  border-style: dashed;
+}
+
+article section section {
+  border: 1px;
+  border-style: dashed;
+}
+
+footer {
+  background-color: rgb(179, 121, 15);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+table {
+  border: solid;
+  margin: auto;
+}
+
+table tr th {
+  margin: auto;
+}
+
+table tr td {
+  border-top: solid;
+}
